@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* background-color:lightblue */
+}
+
+body{
+    background-color: rgba(38, 78, 163, 0.25);
+    text-align: center;
+}
+
+header{
+    background-color: #4cbcd836;
+    padding: 2px;
+    color: rgb(85, 81, 81);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+}
+
+h1{
+    margin: 16px;
+    padding: 2px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+ul{
+    list-style: none;
+    margin: 22px;
+}
+
+ul li{
+    display: inline;
+    margin: 4px;
+}
+
+img{
+    margin: 12px;
+    border-radius: 25px;
+}
+section{
+    padding: 10px;
+    text-align: center;
+    margin: 2% 20% 4%;
+}
+
+section p{
+  text-align: justify; 
+  margin: 5px 0 20px; 
+  color: #30333388;
+}
+h3 {
+    color: #0a2121; 
+    font-size: 20px;
+   
+}
+ol li{
+    text-align: left;
+    font-weight: 900;
+    font-style: italic;
+    list-style-type: none;
+}
+
+
+/* ------------Projects Page-------------- */
+
+table,th,td{
+    border:1px solid #ccc;
+    /* border-collapse:collapse; */
+    border-radius: 4px;
+}
+td{
+    text-align: left;
+    padding: 8px;
+    background-color: rgba(40, 122, 122, 0.065);
+}
+
+th{
+    padding: 4px;
+}
+
+.contact{
+    float: left;
+    padding: 10px;
+
+}
