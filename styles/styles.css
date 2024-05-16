@@ -15,6 +15,7 @@ header{
     padding: 2px;
     color: rgb(85, 81, 81);
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+
 }
 
 h1{
@@ -26,6 +27,10 @@ h1{
 ul{
     list-style: none;
     margin: 22px;
+}
+ul li a{
+    text-decoration: none;
+    color: darkslategrey;
 }
 
 ul li{
@@ -78,8 +83,12 @@ th{
     padding: 4px;
 }
 
-.contact{
-    float: left;
+.contact p{
+    /* float: left; */
     padding: 10px;
-
+display: inline-block;
+}
+.contact p a{
+    text-decoration: none;
+    color: #0a2121;
 }
